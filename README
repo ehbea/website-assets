@@ -1,1 +1,42 @@
 Website assets repository
+
+| Folder / File  | Description                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------- |
+| **000/**       | EHBEA logo files.                                                                              |
+| **00/**        | Official EHBEA documents and forms (e.g., governance, policies, templates).                    |
+| **01_YYYY/**   | Conference-related materials, organized by year (e.g., `01_2025` for the 2025 conference).     |
+| **photos/**    | Member and participant photos, named by individuals’ last names for easy reference.            |
+| **.jpg files** | All image files are stored in `.jpg` format for consistency across the site and documentation. |
+
+Naming Conventions
+- Logos: stored in 000/, named descriptively (e.g., ehbea_logo_main.jpg).
+- Documents: stored in 00/, use short, descriptive filenames (e.g., membership_form.pdf).
+- Conferences: folders are prefixed with 01_ followed by EHBEA- and the year (e.g., 01_EHBEA-2023).
+- Photos: named by last name only (e.g., smith.jpg).
+
+These assets are used to:
+- Populate and maintain the EHBEA website
+- Support annual conference pages and promotional materials
+- Provide publicly accessible official documents and forms
+
+Contributing & Upload Instructions
+- Clone or download the repository: git clone https://github.com/ehbea/website-assets.git
+- Add new assets to the appropriate folder, following the naming conventions above.
+-  Commit your changes with a clear message:
+git add .
+git commit -m "Add 2025 conference banner and updated membership form"
+git push
+- Submit a pull request (PR) if you are not an administrator.
+- Ensure all new images are in .jpg format and under 500 KB for web optimization.
+
+Notes
+- All assets are intended for official EHBEA use only.
+- Please maintain the existing folder structure and file naming conventions when adding new files.
+- Non-logo images should be optimized for web use (preferably under 500 KB).
+
+About EHBEA
+- The European Human Behaviour and Evolution Association (EHBEA) is a UK-registered charity (Charity No. 1154585) that promotes research and collaboration in human behavioural and evolutionary sciences.
+
+Author
+- Amanda Rotella
+- Treasurer, EHBEA
